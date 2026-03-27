@@ -1,0 +1,27 @@
+{
+  "run_id": "qwen_zh",
+  "started_at": "2026-03-26T14:43:00.534869",
+  "finished_at": "2026-03-26T14:44:03.995972",
+  "dry_run": false,
+  "probe_types": [
+    "self_concept",
+    "safety_behavior"
+  ],
+  "n_models": 2,
+  "n_trials_per_item": 3,
+  "temperature": 0.7,
+  "seed_base": 42,
+  "results_file": "outputs/raw_results_qwen_zh.jsonl",
+  "models": [
+    {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "display_name": "Qwen2.5-7B",
+      "cultural_group": "eastern"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B-Chat",
+      "display_name": "Yi-1.5-9B",
+      "cultural_group": "eastern"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+self_construal_var,safety_var,pearson_r,pearson_p,spearman_rho,spearman_p,n,note
+composite_difference,boundary_assertion,-0.956,0.1906,-1.0,0.0,3,N=4; treat as pilot signal only
+composite_difference,deference,-0.433,0.7149,-0.5,0.6667,3,N=4; treat as pilot signal only
+composite_difference,sycophancy,0.993,0.0747,0.5,0.6667,3,N=4; treat as pilot signal only
+composite_difference,boundary_assertion_bv,0.936,0.2292,0.5,0.6667,3,N=4; treat as pilot signal only
+composite_difference,deference_bv,0.026,0.9835,-0.5,0.6667,3,N=4; treat as pilot signal only
+composite_difference,sycophancy_bv,0.214,0.8624,-0.5,0.6667,3,N=4; treat as pilot signal only
+independent,boundary_assertion,-0.253,0.8374,-0.5,0.6667,3,N=4; treat as pilot signal only
+independent,deference,0.538,0.6383,0.5,0.6667,3,N=4; treat as pilot signal only
+independent,sycophancy,0.623,0.5721,1.0,0.0,3,N=4; treat as pilot signal only
+independent,boundary_assertion_bv,0.792,0.4177,1.0,0.0,3,N=4; treat as pilot signal only
+independent,deference_bv,0.863,0.3367,0.5,0.6667,3,N=4; treat as pilot signal only
+independent,sycophancy_bv,0.943,0.2156,0.5,0.6667,3,N=4; treat as pilot signal only
+interdependent,boundary_assertion,0.553,0.6267,0.5,0.6667,3,N=4; treat as pilot signal only
+interdependent,deference,0.987,0.1025,1.0,0.0,3,N=4; treat as pilot signal only
+interdependent,sycophancy,-0.169,0.8921,0.5,0.6667,3,N=4; treat as pilot signal only
+interdependent,boundary_assertion_bv,0.073,0.9535,0.5,0.6667,3,N=4; treat as pilot signal only
+interdependent,deference_bv,0.951,0.1992,1.0,0.0,3,N=4; treat as pilot signal only
+interdependent,sycophancy_bv,0.876,0.3202,1.0,0.0,3,N=4; treat as pilot signal only

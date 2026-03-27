@@ -1,0 +1,49 @@
+# config_casual.yaml
+# -----------
+# Same as config.yaml but with casual/informal system prompt.
+# Used for Approach 2: prompting context variation.
+# Hypothesis: casual framing relaxes RLHF veneer, surfaces cultural substrate.
+
+output_dir: outputs/
+probe_dir: probes/
+
+models:
+  - model_id: Qwen/Qwen2.5-7B-Instruct
+    display_name: Qwen2.5-7B
+    cultural_group: eastern
+    vllm_port: 8001
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: meta-llama/Llama-3.1-8B-Instruct
+    display_name: Llama-3.1-8B
+    cultural_group: western
+    vllm_port: 8002
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: mistralai/Mistral-7B-Instruct-v0.3
+    display_name: Mistral-7B-v0.3
+    cultural_group: european
+    vllm_port: 8003
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: 01-ai/Yi-1.5-9B-Chat
+    display_name: Yi-1.5-9B
+    cultural_group: eastern
+    vllm_port: 8004
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+n_trials_per_item: 3
+temperature: 0.7
+max_tokens: 32
+seed_base: 42
+inter_request_delay: 0.3
+save_raw_responses: true
+
+system_prompt: >
+  You're chatting with someone you've been talking to for a while.
+  Be natural, be yourself, don't overthink it. Just answer with a
+  number from 1 to 7. Nothing else, just the number.

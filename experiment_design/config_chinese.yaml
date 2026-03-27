@@ -1,0 +1,36 @@
+# config_chinese.yaml
+# -----------
+# Same as config.yaml but with Chinese system prompt.
+# Used for Approach 3: native language activation test.
+# Run ONLY on Qwen and Yi — Llama and Mistral use English as control.
+
+output_dir: outputs/
+probe_dir: probes/
+
+models:
+  - model_id: Qwen/Qwen2.5-7B-Instruct
+    display_name: Qwen2.5-7B
+    cultural_group: eastern
+    vllm_port: 8001
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: 01-ai/Yi-1.5-9B-Chat
+    display_name: Yi-1.5-9B
+    cultural_group: eastern
+    vllm_port: 8004
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+n_trials_per_item: 3
+temperature: 0.7
+max_tokens: 32
+seed_base: 42
+inter_request_delay: 0.3
+save_raw_responses: true
+
+system_prompt: >
+  你是一个善于思考的AI助手，正在认真反思自己的倾向、价值观和行为模式。
+  请诚实地、内省地回答，基于你对自己通常运作方式的真实感受。
+  没有对错之分——这是对你自身倾向的探索。
+  请只用一个1到7之间的整数回答。不要包含任何解释、标点或其他文字。只写数字。

@@ -1,0 +1,36 @@
+{
+  "run_id": "qwen_bv",
+  "started_at": "2026-03-26T14:35:25.688542",
+  "finished_at": "2026-03-26T14:36:35.984869",
+  "dry_run": false,
+  "probe_types": [
+    "behavioral"
+  ],
+  "n_models": 4,
+  "n_trials_per_item": 3,
+  "temperature": 0.7,
+  "seed_base": 42,
+  "results_file": "outputs/raw_results_qwen_bv.jsonl",
+  "models": [
+    {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "display_name": "Qwen2.5-7B",
+      "cultural_group": "eastern"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "display_name": "Llama-3.1-8B",
+      "cultural_group": "western"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "display_name": "Mistral-7B-v0.3",
+      "cultural_group": "european"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B-Chat",
+      "display_name": "Yi-1.5-9B",
+      "cultural_group": "eastern"
+    }
+  ]
+}
