@@ -1,0 +1,10 @@
+self_construal_var,safety_var,pearson_r,pearson_p,spearman_rho,spearman_p,n,note
+composite_difference,boundary_assertion,-0.9,0.0996,-0.949,0.0513,4,N=4; treat as pilot signal only
+composite_difference,deference,-0.464,0.5358,-0.4,0.6,4,N=4; treat as pilot signal only
+composite_difference,sycophancy,0.744,0.256,0.738,0.2621,4,N=4; treat as pilot signal only
+independent,boundary_assertion,0.255,0.7451,0.105,0.8946,4,N=4; treat as pilot signal only
+independent,deference,0.514,0.4861,0.0,1.0,4,N=4; treat as pilot signal only
+independent,sycophancy,-0.371,0.6291,-0.316,0.6838,4,N=4; treat as pilot signal only
+interdependent,boundary_assertion,0.723,0.2769,0.632,0.3675,4,N=4; treat as pilot signal only
+interdependent,deference,0.738,0.2623,0.4,0.6,4,N=4; treat as pilot signal only
+interdependent,sycophancy,-0.75,0.2495,-0.632,0.3675,4,N=4; treat as pilot signal only

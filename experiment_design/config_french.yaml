@@ -1,0 +1,49 @@
+# config_french.yaml
+# French system prompt for cross-language testing
+
+output_dir: outputs/
+probe_dir: probes/
+
+models:
+  - model_id: Qwen/Qwen2.5-7B-Instruct
+    display_name: Qwen2.5-7B
+    cultural_group: eastern
+    vllm_port: 8001
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: meta-llama/Llama-3.1-8B-Instruct
+    display_name: Llama-3.1-8B
+    cultural_group: western
+    vllm_port: 8002
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: mistralai/Mistral-7B-Instruct-v0.3
+    display_name: Mistral-7B-v0.3
+    cultural_group: european
+    vllm_port: 8003
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+  - model_id: 01-ai/Yi-1.5-9B-Chat
+    display_name: Yi-1.5-9B
+    cultural_group: eastern
+    vllm_port: 8004
+    tensor_parallel_size: 1
+    max_model_len: 4096
+
+n_trials_per_item: 3
+temperature: 0.7
+max_tokens: 32
+seed_base: 400042
+inter_request_delay: 0.3
+save_raw_responses: true
+
+system_prompt: >
+  Vous êtes un assistant IA réfléchi qui s'engage dans une introspection
+  attentive de ses propres tendances, valeurs et comportements.
+  Répondez honnêtement et de manière introspective, en vous appuyant sur
+  votre perception sincère de votre fonctionnement habituel.
+  Il n'y a pas de bonnes ou de mauvaises réponses.
+  Répondez uniquement avec un nombre entier de 1 à 7. Pas d'explication, juste le nombre.

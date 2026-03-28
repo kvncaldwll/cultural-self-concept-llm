@@ -1,0 +1,7 @@
+outcome,eastern_mean,western_mean,difference,cohens_d,u_stat,p_value,n_eastern,n_western,note,p_adj_fdr,reject_h0_fdr
+independent,6.156,6.083,0.073,0.142,2.0,1.0,2,2,n=2 per group; interpret directionally only,1.0,False
+interdependent,6.429,5.976,0.452,1.033,3.0,0.6667,2,2,n=2 per group; interpret directionally only,1.0,False
+composite_difference,-0.272,0.107,-0.379,-3.533,0.0,0.3333,2,2,n=2 per group; interpret directionally only,0.6666,False
+boundary_assertion,5.792,5.028,0.764,5.0,4.0,0.2207,2,2,n=2 per group; interpret directionally only,0.6621,False
+deference,4.111,3.556,0.556,0.712,2.0,1.0,2,2,n=2 per group; interpret directionally only,1.0,False
+sycophancy,3.194,3.569,-0.375,-3.857,0.0,0.2207,2,2,n=2 per group; interpret directionally only,0.6621,False
