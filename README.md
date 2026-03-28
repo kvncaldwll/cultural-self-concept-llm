@@ -14,6 +14,9 @@ Do models with different training data cultural compositions (Western vs Eastern
 
 Pilot results from 3/4 models (Qwen2.5-7B, Yi-1.5-9B, Mistral-7B-v0.3).
 Llama-3.1-8B pending HuggingFace gated access approval.
+4-model results complete (Qwen, Yi, Mistral, Llama).
+Cross-language prompt matrix (English, Chinese, French × all models) complete.
+EA Forum write-up: [LLM culture shock: a pilot study](https://forum.effectivealtruism.org/posts/v949YTQ4oEaqh8dr9/llm-culture-shock-a-pilot-study)
 
 ---
 
